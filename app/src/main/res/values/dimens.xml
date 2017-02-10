@@ -4,4 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="login_edittext_horizontal_margin">20dp</dimen>
     <dimen name="login_edittext_vertical_margin">14dp</dimen>
+    <dimen name="Signup_edittext_horizontal_margin">15dp</dimen>
+    <dimen name="Signup_edittext_vertical_margin">10dp</dimen>
 </resources>

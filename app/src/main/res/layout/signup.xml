@@ -27,10 +27,10 @@
             android:layout_margin="@dimen/login_edittext_vertical_margin"
             android:textColor="@android:color/black"
             android:textSize="22sp"
-            android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
-            android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+            android:layout_marginBottom="@dimen/Signup_edittext_vertical_margin"
+            android:layout_marginRight="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginLeft="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginTop="@dimen/Signup_edittext_vertical_margin"
             android:paddingBottom="@dimen/login_edittext_vertical_margin"/>
 
         <EditText
@@ -38,27 +38,29 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:hint="Name"
+            android:id="@+id/sname"
             style="@style/Loginbtnstyle"
             android:backgroundTint="@color/colorPrimary"
             android:layout_margin="@dimen/login_edittext_vertical_margin"
-            android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
-            android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+            android:layout_marginBottom="@dimen/Signup_edittext_vertical_margin"
+            android:layout_marginRight="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginLeft="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginTop="@dimen/Signup_edittext_vertical_margin"
             />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Username"
+            android:id="@+id/semail"
+            android:hint="Email_ID"
             style="@style/Loginbtnstyle"
             android:backgroundTint="@color/colorPrimary"
             android:layout_margin="@dimen/login_edittext_vertical_margin"
-            android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
-            android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+            android:layout_marginBottom="@dimen/Signup_edittext_vertical_margin"
+            android:layout_marginRight="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginLeft="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginTop="@dimen/Signup_edittext_vertical_margin"
             />
 
         <EditText
@@ -66,26 +68,28 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:hint="Password"
+            android:id="@+id/spwd"
             style="@style/Loginbtnstyle"
             android:layout_margin="@dimen/login_edittext_vertical_margin"
             android:backgroundTint="@color/colorPrimary"
-            android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
-            android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginTop="@dimen/login_edittext_vertical_margin" />
+            android:layout_marginBottom="@dimen/Signup_edittext_vertical_margin"
+            android:layout_marginRight="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginLeft="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginTop="@dimen/Signup_edittext_vertical_margin" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:hint="Confirm Password"
+            android:id="@+id/scpwd"
             style="@style/Loginbtnstyle"
             android:layout_margin="@dimen/login_edittext_vertical_margin"
             android:backgroundTint="@color/colorPrimary"
-            android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
-            android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginTop="@dimen/login_edittext_vertical_margin" />
+            android:layout_marginBottom="@dimen/Signup_edittext_vertical_margin"
+            android:layout_marginRight="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginLeft="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginTop="@dimen/Signup_edittext_vertical_margin" />
 
 
         <Button
@@ -93,11 +97,12 @@
             android:layout_height="wrap_content"
             android:text="Sign Up"
             android:layout_margin="@dimen/login_edittext_vertical_margin"
+            android:id="@+id/sbtn"
             style="@style/Buttonstyle"
-            android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
-            android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+            android:layout_marginBottom="@dimen/Signup_edittext_vertical_margin"
+            android:layout_marginRight="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginLeft="@dimen/Signup_edittext_horizontal_margin"
+            android:layout_marginTop="@dimen/Signup_edittext_vertical_margin"
             />
 
         <LinearLayout
@@ -113,10 +118,10 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_margin="@dimen/login_edittext_vertical_margin"
                 android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
-                android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
-                android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
-                android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+                android:layout_marginBottom="@dimen/Signup_edittext_vertical_margin"
+                android:layout_marginRight="@dimen/Signup_edittext_horizontal_margin"
+                android:layout_marginLeft="@dimen/Signup_edittext_horizontal_margin"
+                android:layout_marginTop="@dimen/Signup_edittext_vertical_margin"
                 />
 
         </LinearLayout>

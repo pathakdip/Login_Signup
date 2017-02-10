@@ -50,6 +50,7 @@
             android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
             android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
             android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+            android:id="@+id/et_uname_et"
             />
 
         <EditText
@@ -63,7 +64,8 @@
             android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
             android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
             android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
-            android:layout_marginTop="@dimen/login_edittext_vertical_margin" />
+            android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+            android:id="@+id/et_pwd_et"/>
 
         <Button
             android:layout_width="match_parent"
@@ -75,7 +77,7 @@
             android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
             android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
             android:layout_marginTop="@dimen/login_edittext_vertical_margin"
-            />
+            android:id="@+id/btn_login_btn"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -94,6 +96,7 @@
                 android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
                 android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
                 android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+                android:id="@+id/main_tv_signup"
                 />
 
             <TextView
